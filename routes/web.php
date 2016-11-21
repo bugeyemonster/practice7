@@ -20,4 +20,6 @@ Route::get('movielist', 'movieListController@index');
 
 Route::get('actor-detail', 'ActorController@index');
 
+Route::get('user', 'UserDetailController@index');
+
 Route::get('/', 'Homepage_controller@index' );
