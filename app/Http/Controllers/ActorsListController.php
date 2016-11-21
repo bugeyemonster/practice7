@@ -9,6 +9,7 @@ class ActorsListController extends Controller
     //
     public function index()
     {
-        return 'THIS IS THE LIST OF ACTORS';
+        
+        return 'THIS IS THE NEW LIST OF ACTORS';
     }
 }
