@@ -14,4 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
 Route::get('movielist', 'movieListController@index');
+
+Route::get('actor-detail', 'ActorController@index');
