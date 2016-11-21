@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('movielist', 'movieListController@index');
 
 Route::get('actor-detail', 'ActorController@index');
+
+Route::get('actors-list', 'ActorsListController@index');
